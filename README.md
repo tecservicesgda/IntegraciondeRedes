@@ -6,10 +6,10 @@ Este proyecto presenta el diseño y la configuración de la infraestructura de r
 
 ## Contenido del Repositorio
 
-- `network_design.pkt`: Archivo de simulación de Cisco Packet Tracer que contiene el diseño lógico de la red.
-- `A-router_config.txt`: Archivo de texto con la configuración del Router A (Microempresa A).
-- `router_B_config.txt`: Archivo de texto con la configuración del Router B (Microempresa B).
-- `switch_A1_config.txt`: Archivo de texto con la configuración del Switch 1 de la Microempresa A.
+- `integracion.pkt`: Archivo de simulación de Cisco Packet Tracer que contiene el diseño lógico de la red.
+- `A-Router_running-config.txt`: Archivo de texto con la configuración del Router A (Microempresa A).
+- `B-Router_running-config.txt`: Archivo de texto con la configuración del Router B (Microempresa B).
+- `A-Switch-1_running-config`: Archivo de texto con la configuración del Switch 1 de la Microempresa A.
 - `switch_A2_config.txt`: Archivo de texto con la configuración del Switch 2 de la Microempresa A.
 - `switch_A3_config.txt`: Archivo de texto con la configuración del Switch 3 de la Microempresa A.
 - `switch_B1_config.txt`: Archivo de texto con la configuración del Switch 1 de la Microempresa B.
