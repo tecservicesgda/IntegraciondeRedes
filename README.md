@@ -1,52 +1,52 @@
-# Integracion de Redes
+# Network Integration
 
-## Descripción del Proyecto
+## Project Description
 
-Este proyecto presenta el diseño y la configuración de la infraestructura de red para la fusión de dos microempresas de 30 y 20 empleados respectivamente, unidas por un enlace WAN. El repositorio incluye el archivo de simulación de Cisco Packet Tracer (.pkt) y los archivos de texto con la configuración de los routers y switches.
+This project presents the design and configuration of the network infrastructure for the merger of two microenterprises with 30 and 20 employees respectively, connected by a WAN link. The repository includes the Cisco Packet Tracer simulation file (.pkt) and text files with the configuration of the routers and switches.
 
-## Contenido del Repositorio
+## Repository Contents
 
-- `integracion.pkt`: Archivo de simulación de Cisco Packet Tracer que contiene el diseño lógico de la red.
-- `A-Router_running-config.txt`: Archivo de texto con la configuración del Router A (Microempresa A).
-- `B-Router_running-config.txt`: Archivo de texto con la configuración del Router B (Microempresa B).
-- `A-Switch-1_running-config.txt`: Archivo de texto con la configuración del Switch 1 de la Microempresa A.
-- `A-Switch-2_running-config.txt`: Archivo de texto con la configuración del Switch 2 de la Microempresa A.
-- `A-Switch-3_running-config.txt`: Archivo de texto con la configuración del Switch 3 de la Microempresa A.
-- `B-Switch-1_running-config.txt`: Archivo de texto con la configuración del Switch 1 de la Microempresa B.
-- `B-Switch-2_running-config.txt`: Archivo de texto con la configuración del Switch 2 de la Microempresa B.
-- `B-Switch-3_running-config.txt`: Archivo de texto con la configuración del Switch 3 de la Microempresa B.
+- `integracion.pkt`: Cisco Packet Tracer simulation file containing the logical and physical network design.
+- `A-Router_running-config.txt`: Text file with the configuration of Router A (Microenterprise A).
+- `B-Router_running-config.txt`: Text file with the configuration of Router B (Microenterprise B).
+- `A-Switch-1_running-config.txt`: Text file with the configuration of Switch 1 of Microenterprise A.
+- `A-Switch-2_running-config.txt`: Text file with the configuration of Switch 2 of Microenterprise A.
+- `A-Switch-3_running-config.txt`: Text file with the configuration of Switch 3 of Microenterprise A.
+- `B-Switch-1_running-config.txt`: Text file with the configuration of Switch 1 of Microenterprise B.
+- `B-Switch-2_running-config.txt`: Text file with the configuration of Switch 2 of Microenterprise B.
+- `B-Switch-3_running-config.txt`: Text file with the configuration of Switch 3 of Microenterprise B.
 
-## Solución de Incorporación
+## Integration Solution
 
-- **Enlace WAN:** Conexión VPN sobre Internet utilizando routers ISR4331.
-- **Protocolo de Enrutamiento:** RIP para la comunicación entre las microempresas.
-- **Segmentación de la Red:** Uso de VLANs para segmentar el tráfico de PCs, servidores e impresoras.
+- **WAN Link:** VPN connection over the Internet using ISR4331 routers.
+- **Routing Protocol:** RIP for communication between the microenterprises.
+- **Network Segmentation:** Use of VLANs to segment traffic for PCs, servers, and printers.
 
-## Soluciones de Direccionamiento
+## Addressing Solutions
 
-- **Microempresa A:** Red 192.168.1.0/24
-- **Microempresa B:** Red 192.168.2.0/24
-- **Red WAN:** 10.0.0.0/30 para la conexión punto a punto entre los routers.
+- **Microenterprise A:** Network 192.168.1.0/24
+- **Microenterprise B:** Network 192.168.2.0/24
+- **WAN Network:** 10.0.0.0/30 for the point-to-point connection between the routers.
 
-## Diseño Físico y Lógico
+## Physical and Logical Design
 
-- **Diseño Físico:** Ubicación de los equipos de red en cada microempresa y diagrama de cableado.
-- **Diseño Lógico:** Segmentación de la red en VLANs y configuración de las VLANs en los switches.
+- **Physical Design:** Location of network equipment in each microenterprise and cabling diagram.
+- **Logical Design:** Network segmentation into VLANs and VLAN configuration on the switches.
 
-## Propuesta Económica
+## Economic Proposal
 
-- **Costos de Equipos:** Detalle de los costos de routers, switches, cables y otros equipos necesarios.
-- **Costos de Implementación:** Mano de obra para la instalación y configuración, y capacitación para el personal.
-- **Costos de Mantenimiento:** Soporte técnico y actualizaciones de software.
+- **Equipment Costs:** Detailed costs of routers, switches, cables, and other necessary equipment.
+- **Implementation Costs:** Labor for installation and configuration, and training for personnel.
+- **Maintenance Costs:** Technical support and software updates.
 
-## Conclusión
+## Conclusion
 
-Este proyecto proporciona una solución integral para la fusión de dos microempresas, mejorando la conectividad, seguridad y eficiencia de la red. La implementación de esta infraestructura permitirá una integración fluida y un rendimiento óptimo de la red.
+This project provides a comprehensive solution for the merger of two microenterprises, improving network connectivity, security, and efficiency. The implementation of this infrastructure will enable smooth integration and optimal network performance.
 
-## Contacto
+## Contact
 
-Para más información, puedes contactarme en paul83511@gmail.com.
+For more information, you can contact me at paul83511@gmail.com.
 
 ---
 
-¡Gracias por revisar este proyecto!
+Thank you for reviewing this project!
